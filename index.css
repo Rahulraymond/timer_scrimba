@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 600px;
+    height: 400px;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.number{
+    background-color: #080001;
+    border-radius: 6px;
+    font-family: "Cursed Timer ULiL";
+    font-size: 90px;
+    text-align: center;
+    padding: 20px 40px 10px 40px;
+    margin: 10px;
+
+}
+button{
+    background-color: transparent;
+    border: 1px solid #fff7;
+    border-radius: 6px;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.reset, .finish{
+    color: red;
+    background-color: #080001;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.winner{
+    font-family:Verdana,Tahoma, sans-serif;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    background-color: #000000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.close{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: absolute;
+    top: 20;
+    right: 20;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: azure;
+    padding: 5px;
+}
