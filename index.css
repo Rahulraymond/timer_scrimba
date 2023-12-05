@@ -34,7 +34,13 @@ button{
     border: 1px solid #fff7;
     border-radius: 6px;
     color: white;
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+    transition: box-shadow 0.5s ease;
 }
+button:hover{
+    box-shadow: 0px 0px 0px black;
+}
+
 .flex{
     display: flex;
 }
